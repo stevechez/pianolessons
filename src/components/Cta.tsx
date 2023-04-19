@@ -11,22 +11,24 @@ const Cta: NextPage = () => {
             <h2 className="text-xl font-bold text-blue-900">
               CALL NOW: 650-793-8244
             </h2>
-            <p className="py-3 mb-3 text-gray-600 lg:text-xl">
-              Call us today to get your windows sparkling clean windows without
-              hassle and worry-free.
+            <p className="py-3 mb-3 text-gray-700 text-lg">
+              Contact me today to schedule an in-home or virtual lesson and take
+              your piano playing to the next level!
             </p>
-            <h2 className="text-xl font-bold uppercase text-blue-900">
-              Request a Quote
-            </h2>
-            <p className="py-3 mb-3 text-gray-600 lg:text-xl">
-              For window cleaning, or any of our other services, click here.
-            </p>
+
             <h2 className="text-xl font-bold uppercase text-blue-900">
               Area Served
             </h2>
-            <p className="py-3 mb-3 text-gray-600 lg:text-xl">
-              Santa Cruz, Capitola, Aptos
+            <p className="py-3 mb-3 text-gray-600 text-lg">
+              Santa Cruz County or Virtual
             </p>
+
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-blue-500 rounded shadow-md sm:w-auto sm:mr-4 sm:mb-0 focus:shadow-outline focus:outline-none hover:bg-blue-700"
+            >
+              Contact Me
+            </Link>
           </div>
         </div>
         <div className="relative lg:w-1/2">
@@ -36,14 +38,6 @@ const Cta: NextPage = () => {
             className="object-cover w-full lg:absolute h-80 lg:h-full"
           />
         </div>
-
-        {/* YOU’RE ONE STEP AWAY…
-CALL NOW: (720) 442-3260
-Call now to get your windows sparkling clean the way you want them without hassle and worry free!
-REQUEST AN ESTIMATE
-Click here to request an estimate for window cleaning and/or gutter cleaning
-SERVING THE FOLLOWING AREAS
-Boulder, Broomfield, Berthoud, Brighton, Erie, Firestone, Frederick, Johnstown, Lafayette, Longmont, Louisville, Loveland, Lyons, Mead, Niwot, Northglenn, Superior, Thornton, Westminster */}
       </section>
     </>
   );

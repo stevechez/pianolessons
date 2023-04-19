@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import Hero from "@/components/Hero";
 import Content from "@/components/Content";
 import Cta from "@/components/Cta";
-import ServicesFaq from "@/components/ServicesFaq";
+import PianoFaq from "@/components/PianoFaq";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Hero />
       <Content />
-      <ServicesFaq />
+      <PianoFaq />
       <Cta />
     </>
   );
