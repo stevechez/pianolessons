@@ -17,7 +17,7 @@ const Gallery: NextPage = () => {
 					/>
 				</div>
 
-				<div className="w-full md:w-7/12 md:pr-20 mt-12">
+				<div className="md:w-full lg:w-7/12 lg:pr-20 mt-12">
 					<h3 className="text-2xl tracking-wide font-bold text-blue-950 mb-8">
 						Imagine hearing any song and naturally playing it. You can.
 					</h3>

@@ -8,7 +8,7 @@ const Testimonials: NextPage = () => {
 					Testimonials
 				</h1>
 
-				<div className="w-full md:w-2/3 mx-auto">
+				<div className="w-full lg:w-2/3 mx-auto">
 					<blockquote className="flex items-center justify-between w-full col-span-1 p-6 bg-white rounded-lg shadow">
 						<div className="flex flex-col pr-8">
 							<div className="relative pl-12">

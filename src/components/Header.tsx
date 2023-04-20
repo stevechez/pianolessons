@@ -1,23 +1,23 @@
-import React from "react";
-import type { NextPage } from "next";
-import Link from "next/link";
-import Image from "next/image";
-import NavBar from "./NavbarResp";
+import React from 'react';
+import type { NextPage } from 'next';
+import Link from 'next/link';
+import Image from 'next/image';
+import NavBar from './NavbarResp';
 
 const Header3: NextPage = () => {
-  return (
-    <>
-      <header className="bg-gray-200 w-screen">
-        <NavBar />
-      </header>
-    </>
-  );
+	return (
+		<>
+			<header className="w-screen">
+				<NavBar />
+			</header>
+		</>
+	);
 };
 
 export default Header3;
 
 {
-  /* <nav className="flex flex-wrap items-center justify-center text-lg font-bold tracking-tight md:ml-auto relative">
+	/* <nav className="flex flex-wrap items-center justify-center text-lg font-bold tracking-tight md:ml-auto relative">
             <div className="absolute -right-20 -top-20 flex bg-gradient-to-r from-gray-200 to-blue-300 p-4 w-[500px]">
               <div className="flex-1">
                 <svg

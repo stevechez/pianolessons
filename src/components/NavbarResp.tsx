@@ -6,7 +6,7 @@ export default function NavBar() {
 	const [navbar, setNavbar] = useState(false);
 
 	return (
-		<nav className="w-full bg-white shadow relative">
+		<nav className="w-fullshadow relative">
 			<div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
 				<div>
 					<div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -20,7 +20,7 @@ export default function NavBar() {
 						</Link>
 
 						{/* start */}
-						<div className="flex justify-center absolute top-0 right-0 w-full md:w-1/3 bg-gradient-to-r from-white to-blue-300 p-2 text-right">
+						<div className="flex justify-center absolute top-0 right-0 w-full md:w-2/3 lg:w-1/3 bg-gradient-to-r from-white to-blue-300 p-2 text-right">
 							<div className="flex-1 font-semibold text-gray-950">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -101,11 +101,11 @@ export default function NavBar() {
 				</div>
 				<nav className="flex flex-wrap items-center justify-center text-lg font-bold tracking-tight md:ml-auto relative">
 					<div
-						className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 md:pr-24 md:pt-12 ${
+						className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 md:pr-0 md:pt-12 lg:block lg:pb-0 lg:mt-0 lg:pr-48 lg:pt-12 ${
 							navbar ? 'block' : 'hidden'
 						}`}
 					>
-						<ul className="space-y-2 md:flex md:space-x-6 md:space-y-0 mt-0 md:mt-14">
+						<ul className="space-y-2 md:flex md:space-x-4 md:space-y-0 mt-0 md:mt-14">
 							<li className="text-gray-600 hover:text-blue-600">
 								<Link
 									href="/about"
