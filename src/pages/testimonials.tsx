@@ -3,15 +3,12 @@ import type { NextPage } from 'next';
 const Testimonials: NextPage = () => {
 	return (
 		<>
-			<section>
-				<p className="mb-2 text-normal tracking-tight text-blue-950 font-bold uppercase text-center mt-12">
-					See what people are saying
-				</p>
-				<h1 className="text-4xl font-bold text-blue-950 text-center">
+			<section className="container w-full px-8 md:w-4/6 mx-auto">
+				<h1 className="permanent-marker my-8 text-5xl font-bold text-blue-950 text-center bg-gradient-to-r from-white to-blue-200 rounded-lg py-4">
 					Testimonials
 				</h1>
 
-				<div className="w-full md:w-1/2 mx-auto">
+				<div className="w-full md:w-2/3 mx-auto">
 					<blockquote className="flex items-center justify-between w-full col-span-1 p-6 bg-white rounded-lg shadow">
 						<div className="flex flex-col pr-8">
 							<div className="relative pl-12">

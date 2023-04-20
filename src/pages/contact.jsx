@@ -62,8 +62,9 @@ export default function Home() {
   };
 
   return (
-		<div className="md:w-8/12 md:mx-auto px-6">
-			<h1 className="text-4xl font-bold text-blue-950 text-center mt-10 mb-6">
+		<div className="md:w-7/12 md:mx-auto px-6">
+			<h1 className="permanent-marker my-8
+			 text-5xl font-bold text-blue-950 text-center bg-gradient-to-r from-white to-blue-200 rounded-lg py-4">
 				Contact
 			</h1>
 			<p className="text-xl mb-4 md:mr-12">

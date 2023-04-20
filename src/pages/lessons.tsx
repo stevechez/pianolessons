@@ -4,7 +4,7 @@ const Lessons = () => {
 	return (
 		<div>
 			<div className="container w-full md:w-9/12 mx-auto">
-				<h1 className="text-4xl font-bold text-blue-950 text-center my-8">
+				<h1 className="permanent-marker text-5xl font-bold text-blue-950 text-center my-8 bg-gradient-to-r from-white to-blue-200 rounded-lg py-4 mx-4">
 					Lessons
 				</h1>
 				<div className="w-full">
@@ -32,7 +32,7 @@ const Lessons = () => {
 								/>
 							</div>
 						</span>
-						<p className="text-xl font-bold mb-4 mt-6">
+						<p className="text-xl font-semibold mb-4 pt-6">
 							If you&apos;re looking for a piano teacher who can help you play
 							by ear rather than solely relying on sheet music, look no further!
 							Our piano teacher service offers personalized lessons tailored to
@@ -54,7 +54,7 @@ const Lessons = () => {
 						<h2 className="mt-8 text-2xl font-blue-950 font-bold mb-4">
 							In-home or Virtual Instruction
 						</h2>
-						<p className="text-xl mb-14 md:mb-56">
+						<p className="text-xl mb-14 md:mb-72">
 							Welcome to my in-home piano instruction service! My name is Steve,
 							and I&apos;m an experienced and passionate piano teacher who
 							specializes in teaching students how to play by ear. With my
@@ -73,7 +73,7 @@ const Lessons = () => {
 							guide you on your musical journey and help you reach your full
 							potential.
 						</p>
-						<h4 className="text-2xl font-blue-950 font-bold text-center px-8 md:px-32">
+						<h4 className="permanent-marker text-2xl font-blue-950 font-bold text-center px-8 md:px-32">
 							Contact me today to schedule an in-home or virtual lesson and take
 							your piano playing to the next level!
 						</h4>

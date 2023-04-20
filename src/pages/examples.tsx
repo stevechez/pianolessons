@@ -2,8 +2,8 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 const Gallery: NextPage = () => {
 	return (
-		<div className="container w-full px-8 md:w-4/6 mx-auto py-10">
-			<h1 className="text-3xl md:text-4xl tracking-wide font-bold text-blue-950 mb-8">
+		<div className="container w-full px-6 md:w-4/6 mx-auto py-8">
+			<h1 className="permanent-marker text-5xl font-bold text-blue-950 text-center bg-gradient-to-r from-white to-blue-200 rounded-lg py-4 mb-8">
 				Playing Piano by Ear: Examples
 			</h1>
 			<div className="w-full mx-auto">

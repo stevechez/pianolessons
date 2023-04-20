@@ -1,8 +1,8 @@
 const CourseOutline = () => {
 	return (
 		<div className="container px-6 md:w-7/12 mx-auto">
-			<h1 className="text-4xl font-bold text-blue-950 text-center my-12">
-				Sample Course Outline
+			<h1 className="permanent-marker text-5xl font-bold my-8 text-blue-950 text-center bg-gradient-to-r from-white to-blue-200 rounded-lg py-4">
+				Playing Piano by Ear: Examples
 			</h1>
 			<h2 className="text-2xl font-bold mb-6">Course Description:</h2>
 			<p className="mb-4 text-xl">
