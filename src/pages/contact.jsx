@@ -62,18 +62,18 @@ export default function Home() {
   };
 
   return (
-		<div className="md:w-7/12 md:mx-auto px-6">
+		<div className="lg:w-7/12 lg:mx-auto px-6">
 			<h1 className="permanent-marker my-8
 			 text-5xl font-bold text-blue-950 text-center bg-gradient-to-r from-white to-blue-200 rounded-lg py-4">
-				Contact
+				Contactssdfsd
 			</h1>
-			<p className="text-xl mb-4 md:mr-12">
+			<p className="text-xl mb-4 lg:mr-12">
 				Thank you for considering my piano lesson services. I am a highly
 				experienced and passionate piano teacher who can help you develop your
 				skills and achieve your musical goals.
 			</p>
-			<div className="md:grid md:grid-cols-2 md:gap-4">
-				<div className="md:w-1/2">
+			<div className="w-full lg:grid lg:grid-cols-2 lg:gap-4">
+				<div className="lg:w-1/2">
 					<div className="font-semibold text-gray-950 mt-6 mb-4">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ export default function Home() {
 						</svg>
 						650-793-8244
 					</div>
-					<div className="font-semibold text-gray-950 pr-6">
+					<div className="whitespace-nowrap font-semibold text-gray-950 pr-6">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
@@ -118,6 +118,7 @@ export default function Home() {
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.251440579182!2d-121.92372402382823!3d36.979930957546976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e15c1044b999d%3A0x7545b18a9aa6c143!2s840%20Seacliff%20Dr%2C%20Aptos%2C%20CA%2095003!5e0!3m2!1sen!2sus!4v1681939253200!5m2!1sen!2sus"
 								width={450}
 								height={350}
+								className="md:w-72 lg:w-[500px]"
 								style={{ border: 0 }}
 								allowFullScreen=""
 								loading="lazy"
@@ -126,7 +127,8 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="w-1/2">
+				{/* second row */}
+				<div className="w-full lg:w-1/2">
 					{error && (
 						<Text color="red.300" my={4} fontSize="xl">
 							{error}

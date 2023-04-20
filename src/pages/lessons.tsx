@@ -3,13 +3,13 @@ import Image from 'next/image';
 const Lessons = () => {
 	return (
 		<div>
-			<div className="container w-full md:w-9/12 mx-auto">
+			<div className="container w-full md:w-11/12 md:text-center lg:w-9/12 mx-auto">
 				<h1 className="permanent-marker text-5xl font-bold text-blue-950 text-center my-8 bg-gradient-to-r from-white to-blue-200 rounded-lg py-4 mx-4">
 					Lessons
 				</h1>
 				<div className="w-full">
-					<div className="px-12 md:mr-12">
-						<span className="md:float-right md:m-6">
+					<div className="px-12 md:px-0 lg:mr-12">
+						<span className="lg:float-right lg:m-6">
 							<div
 								className="
               "
@@ -32,29 +32,29 @@ const Lessons = () => {
 								/>
 							</div>
 						</span>
-						<p className="text-xl font-semibold mb-4 pt-6">
+						<p className="md:text-left text-xl font-semibold mb-4 pt-6">
 							If you&apos;re looking for a piano teacher who can help you play
 							by ear rather than solely relying on sheet music, look no further!
 							Our piano teacher service offers personalized lessons tailored to
 							each individual&apos;s goals and learning style.
 						</p>
-						<p className="text-lg mb-4">
+						<p className="md:text-left text-lg mb-4">
 							Our experienced instructor has a deep understanding of music
 							theory and can help students develop their listening skills and
 							natural sense of rhythm. Whether you&apos;re a beginner or an
 							intermediate player, we can help you build a strong foundation and
 							develop your ability to play by ear.
 						</p>
-						<p className="text-lg">
+						<p className="md:text-left text-lg">
 							With our guidance, you&apos;ll be able to learn your favorite
 							songs, improvise, and even compose your own music! Contact us
 							today to schedule a lesson and start your musical journey.
 						</p>
 
-						<h2 className="mt-8 text-2xl font-blue-950 font-bold mb-4">
+						<h2 className="md:text-left mt-8 text-2xl font-blue-950 font-bold mb-4">
 							In-home or Virtual Instruction
 						</h2>
-						<p className="text-xl mb-14 md:mb-72">
+						<p className="md:text-left text-xl mb-14 lg:mb-72">
 							Welcome to my in-home piano instruction service! My name is Steve,
 							and I&apos;m an experienced and passionate piano teacher who
 							specializes in teaching students how to play by ear. With my
