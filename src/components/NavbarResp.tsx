@@ -101,7 +101,7 @@ export default function NavBar() {
 				</div>
 				<nav className="flex flex-wrap items-center justify-center text-lg font-bold tracking-tight md:ml-auto relative">
 					<div
-						className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+						className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 md:pr-24 md:pt-12 ${
 							navbar ? 'block' : 'hidden'
 						}`}
 					>
@@ -120,6 +120,14 @@ export default function NavBar() {
 									className="text-gray-600 hover:text-blue-600"
 								>
 									Lessons
+								</Link>
+							</li>
+							<li className="hover:text-blue-500 hover:underline tracking-wider">
+								<Link
+									href="/examples"
+									className="text-gray-600 hover:text-blue-600"
+								>
+									Examples
 								</Link>
 							</li>
 							<li className="text-gray-600 hover:text-blue-600">
@@ -143,7 +151,7 @@ export default function NavBar() {
 									href="/contact"
 									className="hover:text-blue-500 hover:underline tracking-wider"
 								>
-									Contact Me
+									Contact
 								</Link>
 							</li>
 						</ul>

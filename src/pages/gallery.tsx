@@ -1,10 +1,10 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
-const about: NextPage = () => {
+const Gallery: NextPage = () => {
 	return (
-		<div className="container w-full mx-auto">
-			<h1 className="text-4xl font-bold text-blue-950 text-center my-6">
-				About
+		<div className="container w-full mx-auto py-10">
+			<h1 className="text-4xl tracking-wide font-black text-blue-950 text-center mb-8">
+				Gallery
 			</h1>
 			<div className="w-10/12 mx-auto">
 				<div className="pl-12 mb-8 md:float-right md:m-4">
@@ -39,4 +39,4 @@ const about: NextPage = () => {
 	);
 };
 
-export default about;
+export default Gallery;

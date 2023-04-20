@@ -4,12 +4,12 @@ const Testimonials: NextPage = () => {
 	return (
 		<>
 			<section>
-				<p className="mb-2 text-lg tracking-tight text-blue-800 font-bold uppercase text-center mt-12">
+				<p className="mb-2 text-normal tracking-tight text-blue-950 font-bold uppercase text-center mt-12">
 					See what people are saying
 				</p>
-				<h2 className="text-5xl font-black text-blue-950 text-center mb-6">
+				<h1 className="text-4xl font-bold text-blue-950 text-center">
 					Testimonials
-				</h2>
+				</h1>
 
 				<div className="w-full md:w-1/2 mx-auto">
 					<blockquote className="flex items-center justify-between w-full col-span-1 p-6 bg-white rounded-lg shadow">
